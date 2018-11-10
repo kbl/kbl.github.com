@@ -1,4 +1,4 @@
-baseurl = "https://marcin.pietraszek.pl"
+baseurl = "http://marcin.pietraszek.pl"
 title = "Marcin Pietraszek"
 theme = "hugo-coder"
 languagecode = "pl"
