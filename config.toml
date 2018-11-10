@@ -1,0 +1,52 @@
+baseurl = "https://marcin.pietraszek.pl"
+title = "Marcin Pietraszek"
+theme = "hugo-coder"
+languagecode = "pl"
+defaultcontentlanguage = "pl"
+
+paginate = 20
+canonifyurls = true
+
+pygmentsstyle = "bw"
+pygmentscodefences = true
+pygmentscodefencesguesssyntax = true
+
+[params]
+    author = "Marcin Pietraszek"
+    info = "Big Data Engineer"
+    description = "Marcin Pietraszek - strona domowa"
+    keywords = "developer,personal"
+    avatarurl = "/img/marcin_pietraszek.jpg"
+
+    favicon_16 = "/img/favicon.ico"
+
+    hidecredits = true
+    hidecopyright = true
+
+    rtl = false
+
+    math = true
+    custom_css = ["css/custom.css"]
+
+# Social links
+[[params.social]]
+    name = "Github"
+    icon = "fab fa-github fa-2x"
+    weight = 1
+    url = "https://github.com/kbl/"
+[[params.social]]
+    name = "Bitbucket"
+    icon = "fab fa-bitbucket fa-2x"
+    weight = 4
+    url = "https://bitbucket.com/kbl/"
+[[params.social]]
+    name = "LinkedIn"
+    icon = "fab fa-linkedin fa-2x"
+    weight = 6
+    url = "https://linkedin.com/in/marcinpietraszek/"
+
+# Menu links
+[[menu.main]]
+    name = "Blog"
+    weight = 1
+    url  = "http://www.samouczekprogramisty.pl"
