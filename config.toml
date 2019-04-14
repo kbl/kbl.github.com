@@ -55,3 +55,8 @@ pygmentscodefencesguesssyntax = true
     name = "Blog"
     weight = 1
     url  = "http://www.samouczekprogramisty.pl"
+
+[[menu.main]]
+    name = "GPG Key"
+    weight = 2
+    url  = "/marcin_pietraszek.gpg"
